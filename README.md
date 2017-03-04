@@ -4,4 +4,11 @@
 
 ![Highway Equation](images/highway.png)
 
+## Usage
 
+```python
+highway = Highway(input_size, num_layers, f=torch.nn.functional.relu)
+
+# input is [batch_size, input_size] shaped tensor
+out = highway(input)
+```
